@@ -4,27 +4,22 @@
 
 ### 1.1 과제 요약
 
->p5js와 ml5라이브러리를 활용하여 사람의 윤곽선을 따서 뒷 배경과 합성하는 javascript기반의 프로그램을 만든다.
+#### p5js와 ml5라이브러리를 활용하여 사람의 윤곽선을 따서 뒷 배경과 합성하는 javascript기반의 프로그램을 만든다.
 
-#### 어레이 사이즈를 미리 지정하는 정적인 어레이와는 달리 데이터가 들어올때 마다 동적으로 메모리를 할당하는 자료구조다.
 |                |어레이|리스트|
 |----------------|------|-----|
 |메모리 할당 효율 |      |   O |
 |데이터 저장 값   |   O  |     |
 |중간 값 추가/삭제|      |   O |
 
-![Linkedlist](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png)
-
 
 ## 2. 개요
 
 ### 2.1 배경
 
-#### 부모 노드 밑에 여러 자식 노드가 연결되고, 자식 노드 각각에 다시 자식 노드가 연결되는 재귀적 형태의 자료구조다.
+#### 인공지능과 그래픽스의 발달에 따라 
 
-![tree](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sorted_binary_tree_ALL.svg/400px-Sorted_binary_tree_ALL.svg.png)
 
-Depth-first traversal of an example tree: pre-order (red): F, B, A, D, C, E, G, I, H; in-order (yellow): A, B, C, D, E, F, G, H, I; post-order (green): A, C, E, D, B, H, I, G, F.
 
 ### 2.2 필요성
 
@@ -135,8 +130,14 @@ int main(void) {
 
 ### 4.1 예상 결과물
 
+#### 지정된 곳에 배경을 넣고 합성할 인물의 사진을 그 뒤에 넣으면 ml5 라이브러리를 활용하여 사진안에 인물의 배경을 제거하고 윤곽선을 따서 합성하고 싶은 사진과 합성하는 결과물을 예상하고 있다.
+
+![expected result](https://blog.kakaocdn.net/dn/cAvoaZ/btqugEtGcEE/XW6qr2etS6zM0fni9xHcA1/img.png)
+> 위의 사진은 포토샵을 이용하여 사람과 배경을 합성한 예시이나 ml5.js와 그래픽스를 이용하여 같은 작업을 간편하게 수행할 수 있게 구현할 계획이다.
+
 ### 4.2 기도효과 및 활용방안
 
+#### 기존의 방식은 포토샵과 같은 프로그램을 숙련자가 이용하여 누끼를 따고 합성하는 귀찮은 방식을 사용하였다면 위의 결과물로 누구나 쉽게 웹에서도 인물의 윤곽선만 포함하고 뒷배경은 제거하여 원하는 사진과의 합성이 가능해진다. 현재로서는 인물만 추출할 수 있으며 사진만 적용 가능하지만 움직이는 영상에도 코드 수정을 통해 쉽게 적용할 수 있을 것이다.
 
 
 <hr/>
