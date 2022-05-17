@@ -50,7 +50,7 @@
 ![original image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Harriet_Tubman_c1868-69_%28cropped%29.jpg/220px-Harriet_Tubman_c1868-69_%28cropped%29.jpg)  
 
 #### 2) 프로그램을 실행시키면 인물이 있는 부분만 분리시킨다.
-![processed image](https://learn.ml5js.org/_media/reference__header-bodypix.png)
+![processed image](https://user-images.githubusercontent.com/50915637/168789131-62db32e8-6ac6-4748-96b7-7181ba453123.PNG)
 
 #### 3) 분리시킨 사진을 원하는 배경에 합성한다.
 
