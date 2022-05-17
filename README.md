@@ -1,8 +1,10 @@
 # AI그래픽스 팀과제 계획서 - 과제명
 
-## 1. 리스트(List)
+## 1. 요약
 
-### *리스트의 정의
+### 1.1 과제 요약
+
+>p5js와 ml5라이브러리를 활용하여 사람의 윤곽선을 따서 뒷 배경과 합성하는 javascript기반의 프로그램을 만든다.
 
 #### 어레이 사이즈를 미리 지정하는 정적인 어레이와는 달리 데이터가 들어올때 마다 동적으로 메모리를 할당하는 자료구조다.
 |                |어레이|리스트|
@@ -13,48 +15,10 @@
 
 ![Linkedlist](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png)
 
-### *리스트의 종류
 
-> 1) Singly Linked List - 노드안에 링크가 1개이고 단방향으로 진행하는 리스트
+## 2. 개요
 
-> 2) Doubly Linked List - 노드안에 링크가 2개이고 양방향으로 진행할 수 있는 리스트
-
-> 3) Circular Linked List - 마지막 노드가 첫 번째 노드를 가르켜서 계속 회전할 수 있게 만들어진 리스트
-
-### *리스트 예제
-
-```
-#include <stdio.h>
-#include <stdlib.h>
-typedef struct list {
- int d;
- struct list* p;
-} LIST;
-LIST* root = NULL;
-LIST* last = NULL;
-void AddList(int a){
- LIST* r = (LIST*)malloc(sizeof(LIST));
- r->d = a;
- r->p = NULL;
- if(root==NULL) root = r;
- else           last->p = r;
- last = r;
-}
-int main(void){
- AddList(35);
- AddList(40);
- AddList(45);
- while(root){
-  printf("%d\n", root->d);
-  root = root->p;
- }
-}
-```
-
-
-## 2. 트리(Tree)
-
-### *트리의 정의
+### 2.1 배경
 
 #### 부모 노드 밑에 여러 자식 노드가 연결되고, 자식 노드 각각에 다시 자식 노드가 연결되는 재귀적 형태의 자료구조다.
 
@@ -62,7 +26,7 @@ int main(void){
 
 Depth-first traversal of an example tree: pre-order (red): F, B, A, D, C, E, G, I, H; in-order (yellow): A, B, C, D, E, F, G, H, I; post-order (green): A, C, E, D, B, H, I, G, F.
 
-### *트리의 순회방법에 따른 분류 (위의 이미지 참조)
+### 2.2 필요성
 
 > -Pre-orde Traversal
 
@@ -72,7 +36,7 @@ Depth-first traversal of an example tree: pre-order (red): F, B, A, D, C, E, G, 
 
 > -Level-order Traversal
 
-### *트리의 종류
+### 2.3 선택 동기
 
 > 1) Binary tree - 최대로 많이 가진 자식노드의 수가 2개를 넘지않는 트리
 
@@ -121,15 +85,15 @@ int main(void){                     // 트리 생성
 ```
 
 
-## 3. 그래프(Graph)
+## 3. 목표 및 내용
 
-### *그래프의 정의
+### 3.1 정량적/정성적 목표
 
 #### 그래프는 노드와 간선(Edge)으로 구성된 비선형 데이터 구조다. 노드는 정점(Vertex or Vertices)이라고도하며 간선(Edge)은 그래프의 두 노드를 연결하는 선 또는 호다. 일반적으로 정점은 원으로 표현하고 간선은 화살표나 선분으로 표현한다. 그리고 변의 경우에는 특정한 수치를 가질 수 있는데 이를 가중치(Weighted value)라고 말한다.
 
 ![graph](https://www.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png)
 
-### *그래프의 종류
+### 3.2 세부 내용
 
 > 1) 유방향 그래프(Directed Graph) - 간선의 방향이 존재하는 그래프 (간선을 화살표로 표시)
 
@@ -165,6 +129,15 @@ int main(void) {
   system("pause");
 }
 ```
+
+
+## 4. 결과물
+
+### 4.1 예상 결과물
+
+### 4.2 기도효과 및 활용방안
+
+
 
 <hr/>
 
