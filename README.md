@@ -53,7 +53,7 @@
 ![processed image](https://user-images.githubusercontent.com/50915637/168789131-62db32e8-6ac6-4748-96b7-7181ba453123.PNG)
 
 #### 3) 분리시킨 사진을 원하는 배경에 합성한다.
-
+![processed image2](https://user-images.githubusercontent.com/50915637/168790405-71876bb7-dd02-4fe6-ba14-d1d46aaad387.png)
 <br/>
 
 ## 4. 결과물
