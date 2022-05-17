@@ -38,9 +38,21 @@
 
 ### 3.1 정량적/정성적 목표
 
-#### 인물 사진을 업로드하여 
+>1) 인물의 외곽을 따서 인물과 배경을 분리시킬 수 있는가?
+
+>2) 한 인물사진에 다양한 배경사진을 설정에 따라 바꿔 적용시킬 수 있는가?
+
+>3) BodyPix를 제대로 이용하여 인물의 특정 신체 부위만 적용시킬 수 있는가?
 
 ### 3.2 세부 내용
+
+#### 1) 사진을 업로드한다.
+![original image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Harriet_Tubman_c1868-69_%28cropped%29.jpg/220px-Harriet_Tubman_c1868-69_%28cropped%29.jpg)  
+
+#### 2) 프로그램을 실행시키면 인물이 있는 부분만 분리시킨다.
+![processed image](https://learn.ml5js.org/_media/reference__header-bodypix.png)
+
+#### 3) 분리시킨 사진을 원하는 배경에 합성한다.
 
 <br/>
 
