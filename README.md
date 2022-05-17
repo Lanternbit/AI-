@@ -92,4 +92,3 @@
 > [2]  p5.js ml5.js(2020). https://wikidocs.net/book/5373 (accessed may 17,2022).
 
 > [3] Image drag&drop(2020). https://wikidocs.net/102807 (accessed may 17,2022).
-<hr/>
